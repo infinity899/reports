@@ -1,0 +1,130 @@
+{
+  "$schema": "sitemap-schema.json",
+  "areas": [
+    {
+      "title": "Invessed demo app",
+      "name": "demo",
+      "sections": [
+        {
+          "title": "Reporting",
+          "name": "dashboard-portal",
+          "report": "/reports/accounts.config.json"
+        },
+        {
+          "title": "Messages",
+          "name": "messages",
+          "report": "/reports/messages.config.json"
+        },
+        {
+          "title": "Products",
+          "name": "products",
+          "report": "/reports/products.config.json"
+        },
+        {
+          "title": "Documents",
+          "name": "documents",
+          "report": "/reports/docs.config.json"
+        },
+        {
+          "title": "Apply",
+          "name": "apply",
+          "report": "/reports/forms.config.json"
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "link": "analytics",
+      "visible": [
+        "Admin",
+        "Advisor"
+      ],
+      "order": 0,
+      "subnavigation": [],
+      "icon": "chart-line-variant",
+      "name": "navigation.titles.analytics"
+    },
+    {
+      "name": "Apply",
+      "order": 2,
+      "visible": [
+        "Admin"
+      ],
+      "link": "apply",
+      "subnavigation": [],
+      "icon": "account-box"
+    },
+    {
+      "subnavigation": [],
+      "name": "Applications",
+      "order": 8,
+      "link": "/processes/IOSq6zSO1kk4II8Z6o6y",
+      "icon": "account-box",
+      "visible": [
+        "Admin"
+      ]
+    },
+    {
+      "visible": [
+        "Investor"
+      ],
+      "icon": "chart-bar",
+      "name": "Portfolio",
+      "subnavigation": [],
+      "link": "account/{{investorAccount.id}}",
+      "order": 1
+    },
+    {
+      "order": 4,
+      "subnavigation": [],
+      "visible": [],
+      "link": "funds",
+      "name": "navigation.titles.investments_explorer",
+      "icon": "crosshairs"
+    },
+    {
+      "visible": [],
+      "name": "navigation.titles.investment_advice",
+      "order": 8,
+      "link": "investment-advice",
+      "subnavigation": [],
+      "icon": "briefcase-outline"
+    },
+    {
+      "order": 6,
+      "subnavigation": [],
+      "icon": "file-multiple",
+      "visible": [
+        "Admin",
+        "Advisor",
+        "Investor"
+      ],
+      "link": "library",
+      "name": "navigation.titles.library"
+    },
+    {
+      "order": 9,
+      "icon": "account-group",
+      "visible": [
+        "Advisor",
+        "Admin"
+      ],
+      "link": "",
+      "subnavigation": [],
+      "name": "dashboard.titles.my_clients"
+    },
+    {
+      "order": 5,
+      "name": "navigation.titles.messages",
+      "subnavigation": [],
+      "icon": "email",
+      "visible": [
+        "Admin",
+        "Advisor",
+        "Investor"
+      ],
+      "link": "messages"
+    }
+  ]
+}
