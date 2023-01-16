@@ -40,7 +40,7 @@
         "Admin",
         "Advisor"
       ],
-      "order": 0,
+      "order": 9,
       "subnavigation": [],
       "icon": "chart-line-variant",
       "name": "navigation.titles.analytics"
@@ -104,7 +104,7 @@
       "name": "navigation.titles.library"
     },
     {
-      "order": 9,
+      "order": 1,
       "icon": "account-group",
       "visible": [
         "Advisor",
