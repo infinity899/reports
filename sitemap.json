@@ -35,12 +35,23 @@
   ],
   "navigation": [
     {
+      "order": 9,
+      "icon": "account-group",
+      "visible": [
+        "Advisor",
+        "Admin"
+      ],
+      "link": "",
+      "subnavigation": [],
+      "name": "dashboard.titles.my_clients"
+    },
+    {
       "link": "analytics",
       "visible": [
         "Admin",
         "Advisor"
       ],
-      "order": 9,
+      "order": 1,
       "subnavigation": [],
       "icon": "chart-line-variant",
       "name": "navigation.titles.analytics"
@@ -102,17 +113,6 @@
       ],
       "link": "library",
       "name": "navigation.titles.library"
-    },
-    {
-      "order": 1,
-      "icon": "account-group",
-      "visible": [
-        "Advisor",
-        "Admin"
-      ],
-      "link": "",
-      "subnavigation": [],
-      "name": "dashboard.titles.my_clients"
     },
     {
       "order": 5,
