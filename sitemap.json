@@ -35,7 +35,7 @@
   ],
   "navigation": [
     {
-      "order": 9,
+      "order": 1,
       "icon": "account-group",
       "visible": [
         "Advisor",
@@ -51,7 +51,7 @@
         "Admin",
         "Advisor"
       ],
-      "order": 1,
+      "order": 7,
       "subnavigation": [],
       "icon": "chart-line-variant",
       "name": "navigation.titles.analytics"
